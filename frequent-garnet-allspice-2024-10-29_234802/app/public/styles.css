@@ -1,0 +1,78 @@
+:root {
+  --font-family-inter: 'Inter', sans-serif;
+}
+
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family-inter);
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #555;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.input-4, .input-5, .input-8 {
+  background-color: rgba(255, 255, 255, 1);
+  border: 2px solid rgba(204, 204, 204, 1);
+  border-radius: 8px;
+}
+
+.text-6, .text-7, .text-11 {
+  color: rgba(91, 40, 40, 1);
+}
+
+.button-9 {
+  background-color: rgba(0, 123, 255, 1);
+  border-radius: 16px;
+}
+
+.form-3 {
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 15px;
+}

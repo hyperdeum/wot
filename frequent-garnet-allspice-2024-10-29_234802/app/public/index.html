@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discord Bot Message Sender</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Send a Message via Discord Bot</h1>
+        <form id="messageForm" class="form-3">
+            <label for="botToken" class="text-6">Bot Token:</label>
+            <input type="text" id="botToken" name="botToken" class="input-4"><br><br>
+            <label for="channelId" class="text-7">Channel ID:</label>
+            <input type="text" id="channelId" name="channelId" class="input-5"><br><br>
+            <label for="message" class="text-11">Message:</label>
+            <input type="text" id="message" name="message" class="input-8"><br><br>
+            <button type="button" onclick="sendMessage()" class="button-9">Send</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
